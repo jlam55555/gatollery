@@ -1,0 +1,61 @@
+/* GENERAL STYLES */
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: quicksand, sans-serif;
+}
+body {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* TAG-SPECIFIC STYLES */
+a {
+  color: inherit;
+}
+.rflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* HEADER */
+.head_logo {
+  width: 5rem;
+}
+.head_name {
+  font-weight: 500;
+}
+.head_filler {
+  width: 5rem;
+}
+
+/* LIGHTBOX */
+.lightbox_img {
+  max-width: 100%;
+}
+.lightbox_nav_buttons {
+  padding: 0.5rem 0;
+}
+.lightbox_nav_button {
+  padding: 0.25rem;
+  font-weight: 500;
+  border: 2px solid black;
+  text-decoration: none;
+  margin: 0 0.25rem;
+}
+
+/* FOOTER */
+.footer {
+  padding: 0.5rem 0;
+}
+.footer_text {
+  text-align: center;
+}
+.footer_link {
+  margin: 0 0.25rem;
+}
