@@ -16,6 +16,18 @@ body {
 a {
   color: inherit;
 }
+h1, h2, h3, h4, h5, h6 {
+  /* looks nice with quicksand font */
+  font-weight: 500;
+}
+
+/* HELPER CLASSES */
+.dnone {
+  display: none;
+}
+.dblock {
+  display: block;
+}
 .rflex {
   display: flex;
   flex-direction: row;
@@ -26,9 +38,6 @@ a {
 /* HEADER */
 .head_logo {
   width: 5rem;
-}
-.head_name {
-  font-weight: 500;
 }
 .head_filler {
   width: 5rem;
